@@ -1,6 +1,74 @@
-index.html
-style.css
-app.js
-manifest.json
-service-worker.js    
-icons/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MortgageMate Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>MortgageMate Pro</h1>
+    <p class="subtitle">Mortgage & Real Estate Investment Calculator</p>
+
+    <div class="card">
+
+        <h2>Mortgage Calculator</h2>
+
+        <label>Purchase Price</label>
+        <input id="price" type="number" value="350000">
+
+        <label>Down Payment</label>
+        <input id="down" type="number" value="70000">
+
+        <label>Interest Rate (%)</label>
+        <input id="rate" type="number" value="6.5">
+
+        <label>Loan Term (Years)</label>
+        <input id="years" type="number" value="30">
+
+        <button onclick="calculateMortgage()">
+            Calculate Payment
+        </button>
+
+        <div class="result">
+            <h3>Monthly Payment</h3>
+            <p id="payment">$0</p>
+        </div>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Rental Property Analyzer</h2>
+
+        <label>Monthly Rent</label>
+        <input id="rent" type="number" value="2000">
+
+        <label>Monthly Expenses</label>
+        <input id="expenses" type="number" value="500">
+
+        <button onclick="calculateRental()">
+            Calculate Cash Flow
+        </button>
+
+        <div class="result">
+            <h3>Monthly Cash Flow</h3>
+            <p id="cashflow">$0</p>
+        </div>
+
+    </div>
+
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
