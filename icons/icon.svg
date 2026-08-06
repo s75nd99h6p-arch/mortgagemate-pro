@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+  <rect width="512" height="512" rx="110" fill="#ffffff"/>
+
+  <!-- Blue house -->
+  <path d="M120 245 L256 125 L392 245 V390 H120 Z"
+        fill="#007AFF"/>
+
+  <!-- Door -->
+  <rect x="220" y="285" width="72" height="105"
+        rx="8" fill="#ffffff"/>
+
+  <!-- Calculator -->
+  <rect x="165" y="185" width="182" height="170"
+        rx="25" fill="#1d1d1f"/>
+
+  <rect x="195" y="215" width="122" height="40"
+        rx="8" fill="#ffffff"/>
+
+  <circle cx="215" cy="295" r="15" fill="#007AFF"/>
+  <circle cx="255" cy="295" r="15" fill="#007AFF"/>
+  <circle cx="295" cy="295" r="15" fill="#007AFF"/>
+
+  <circle cx="215" cy="335" r="15" fill="#007AFF"/>
+  <circle cx="255" cy="335" r="15" fill="#007AFF"/>
+  <circle cx="295" cy="335" r="15" fill="#007AFF"/>
+
+</svg>
